@@ -173,7 +173,14 @@ getch();
 
 void square()
 {
-
+int num_1,sq;
+gotoxy(25,8);
+printf("square of a number\n");
+printf("enter a number\n");
+scanf("%d",&num_1);
+sq=num_1*num_1;
+printf("%d square = %d",num_1,sq);
+getch();
 }
 
 void squarerut()
