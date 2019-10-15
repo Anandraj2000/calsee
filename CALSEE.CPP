@@ -13,7 +13,7 @@ void squarerut();
 void instructions();
 void main()
 {
-int k,inst;
+int switch_ctrl,inst;
 char name[15];
 clrscr();
 printf("Hi I am Calsee!!!\nWhat's your name_");
@@ -28,7 +28,7 @@ printf("0.Exit  1.Add  2.Subtract  3.Multiply  4.Divide  5.Remainder \n");
 printf("6.Square  7.Square Root  8.  9. \n");
 printf("10.Prime Number check  11.Divisibility check  12.Factorial of a number \n");
 scanf("%d",&k);
-switch (k)
+switch (switch_ctrl)
 {
 case 1:
        add();
