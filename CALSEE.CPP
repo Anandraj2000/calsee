@@ -11,6 +11,7 @@ void fact();
 void square();
 void squarerut();
 void instructions();
+void abc();
 void main()
 {
 int switch_ctrl,inst;
@@ -199,5 +200,11 @@ printf("%c inst 4\n",c);
 printf("%c inst 5\n",c);
 printf("%c inst 6\n",c);
 printf("press any key to continue\n");
+getch();
+}
+
+void abc()
+{
+ printf("ABC");
 getch();
 }
